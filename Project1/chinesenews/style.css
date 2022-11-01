@@ -1,0 +1,89 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: 0%;
+    position: fixed;
+    width: 92%;
+    padding: 0;
+    z-index: 999;
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    mix-blend-mode: overlay;
+}
+
+.title2{
+    display: flex;
+    margin-left: 52%;
+    
+    margin-top: 0%;
+    position: fixed;
+    width: 92%;
+    padding: 0;
+    z-index: 999;
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    mix-blend-mode: overlay;
+  
+}
+
+.article{
+    flex: 1;
+    margin-right: 80px;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+}
+
+.article2{
+    flex: 1;
+    margin-right: 80px;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+}
+
+.news_title{
+    font-size: 25px;
+    color: black;
+}
+
+.news_title2{
+    font-size: 25px;
+    color: black;
+}
+
+.content{
+    margin-left: 3%;
+    width: 50vw;
+    margin-top: 7%;
+    position:absolute;
+}
+
+.content2{
+    margin-left: 52%;
+    width: 50vw;
+    margin-top: 7%;
+    position:absolute;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color:#62bff4;
+}
+
+a:hover{
+    filter: blur(3px);
+}
+
+.invisible{
+    display:none;
+  }
+
+.chinacensored{
+    color: #f60000;
+}
+
+.chinadaily{
+    color: #62bff4;
+}
